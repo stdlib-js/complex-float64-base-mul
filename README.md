@@ -91,6 +91,66 @@ var im = imag( v );
 // returns -1.0
 ```
 
+The function supports the following parameters:
+
+-   **z1**: first [complex number][@stdlib/complex/float64/ctor].
+-   **z2**: second [complex number][@stdlib/complex/float64/ctor].
+
+#### mul.assign( re1, im1, re2, im2, out, strideOut, offsetOut )
+
+Multiplies two double-precision complex floating-point numbers and assigns results to a provided output array.
+
+```javascript
+var Float64Array = require( '@stdlib/array-float64' );
+
+var out = new Float64Array( 2 );
+var v = mul.assign( 5.0, 3.0, -2.0, 1.0, out, 1, 0 );
+// returns <Float64Array>[ -13.0, -1.0 ]
+
+var bool = ( out === v );
+// returns true
+```
+
+The function supports the following parameters:
+
+-   **re1**: real component of the first complex number.
+-   **im1**: imaginary component of the first complex number.
+-   **re2**: real component of the second complex number.
+-   **im2**: imaginary component of the second complex number.
+-   **out**: output array.
+-   **strideOut**: stride length for `out`.
+-   **offsetOut**: starting index for `out`.
+
+#### mul.strided( z1, sz1, oz1, z2, sz2, oz2, out, so, oo )
+
+Multiplies two double-precision complex floating-point numbers stored in real-valued strided array views and assigns results to a provided strided output array.
+
+```javascript
+var Float64Array = require( '@stdlib/array-float64' );
+
+var z1 = new Float64Array( [ 5.0, 3.0 ] );
+var z2 = new Float64Array( [ -2.0, 1.0 ] );
+var out = new Float64Array( 2 );
+
+var v = mul.strided( z1, 1, 0, z2, 1, 0, out, 1, 0 );
+// returns <Float64Array>[ -13.0, -1.0 ]
+
+var bool = ( out === v );
+// returns true
+```
+
+The function supports the following parameters:
+
+-   **z1**: first complex number strided array view.
+-   **sz1**: stride length for `z1`.
+-   **oz1**: starting index for `z1`.
+-   **z2**: second complex number strided array view.
+-   **sz2**: stride length for `z2`.
+-   **oz2**: starting index for `z2`.
+-   **out**: output array.
+-   **so**: stride length for `out`.
+-   **oo**: starting index for `out`.
+
 </section>
 
 <!-- /.usage -->
@@ -279,7 +339,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -324,6 +384,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/complex-float64-base-mul/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/complex-float64-base-mul/main/LICENSE
+
+[@stdlib/complex/float64/ctor]: https://github.com/stdlib-js/complex-float64-ctor
 
 <!-- <related-links> -->
 
