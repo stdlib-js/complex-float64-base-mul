@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-17)
+## Unreleased (2025-01-22)
 
 <section class="features">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`8983ed6`](https://github.com/stdlib-js/stdlib/commit/8983ed6bedb835843fab1a5039095932092e0665) - **test:** add missing test _(by Athan Reines)_
 -   [`a0aef8f`](https://github.com/stdlib-js/stdlib/commit/a0aef8ff6010029008236151a684d1295a66f6a7) - **feat:** add `strided` API _(by Athan Reines)_
 -   [`e93b466`](https://github.com/stdlib-js/stdlib/commit/e93b4667550eed6470a805d8e244764c6fe26525) - **feat:** add `assign` method _(by Athan Reines)_
 
