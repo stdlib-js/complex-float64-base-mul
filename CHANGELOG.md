@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-22)
+## Unreleased (2025-03-12)
 
 <section class="features">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`3bad287`](https://github.com/stdlib-js/stdlib/commit/3bad287c1589abf75463bbb43311c22d4a991c22) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`8983ed6`](https://github.com/stdlib-js/stdlib/commit/8983ed6bedb835843fab1a5039095932092e0665) - **test:** add missing test _(by Athan Reines)_
 -   [`a0aef8f`](https://github.com/stdlib-js/stdlib/commit/a0aef8ff6010029008236151a684d1295a66f6a7) - **feat:** add `strided` API _(by Athan Reines)_
 -   [`e93b466`](https://github.com/stdlib-js/stdlib/commit/e93b4667550eed6470a805d8e244764c6fe26525) - **feat:** add `assign` method _(by Athan Reines)_
@@ -37,9 +38,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gururaj Gurram
 
 </section>
 
