@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2025-06-08)
 
 <section class="features">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`b9dd967`](https://github.com/stdlib-js/stdlib/commit/b9dd967f6b4a30027fa5f612f0133081836146ca) - **docs:** update examples for `complex/float64/base/mul` [(#7265)](https://github.com/stdlib-js/stdlib/pull/7265) _(by Shabareesh Shetty)_
 -   [`4506e9d`](https://github.com/stdlib-js/stdlib/commit/4506e9d226429b5491a1d2393c90c3acadf9546b) - **docs:** update comments _(by Athan Reines)_
 -   [`32e3cc7`](https://github.com/stdlib-js/stdlib/commit/32e3cc79eaabee985dd78349ed48d707e06b6c4a) - **docs:** change examples for `complex/float64/base/mul` [(#7181)](https://github.com/stdlib-js/stdlib/pull/7181) _(by Shabareesh Shetty)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
